@@ -1,5 +1,8 @@
-import './App.css';
+//Components
 import FirstComponent from './components/FirstComponent';
+
+//Styles / CSS
+import './App.css';
 
 function App() {
   return (
