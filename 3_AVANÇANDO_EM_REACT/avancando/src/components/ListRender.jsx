@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 const ListRender = () => {
     const [list] = useState(["Ricardo", "Matheus", "Pedro"]);
-    const [users] = useState([
+    const [users, setUsers] = useState([
         {id: 1, name: "Ricardo", age: 21},
         {id: 2, name: "Emanuelly", age: 22},
         {id: 3, name: "Gustavo", age: 21},
@@ -10,6 +10,15 @@ const ListRender = () => {
         {id: 5, name: "Agnis", age: 20},
         {id: 6, name: "Henrique", age: 20},
     ])
+
+    const deleteRandom = () => {
+        const randomNumber = Math.round(Math.random() * 6);
+
+        setUsers((prevUsers) => {
+            console.log(prevUsers, prevUsers.length)
+            return prevUsers.filter((user) => randomNumber !== user.id)
+        })
+    }
 
     return (
         <div>
@@ -25,6 +34,8 @@ const ListRender = () => {
                     </li>
                 ))}
             </ul>
+
+            <button onClick={deleteRandom}>Delete random user</button>
         </div>
     )
 }
