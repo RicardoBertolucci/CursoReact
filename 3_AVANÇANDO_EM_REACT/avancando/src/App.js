@@ -1,4 +1,5 @@
 import ManageData from './components/ManageData';
+import ListRender from './components/ListRender';
 
 import './App.css';
 
@@ -19,6 +20,8 @@ function App() {
       </div>
 
       <ManageData />
+
+      <ListRender />
     </div>
   );
 }
