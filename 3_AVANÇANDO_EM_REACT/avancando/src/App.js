@@ -5,6 +5,9 @@ import ShowUserName from './components/ShowUserName';
 import CarDetails from './components/CarDetails';
 import Fragments from './components/Fragments';
 import Container from './components/Container';
+import ExecuteFunction from './components/ExecuteFunction';
+import Message from './components/Message';
+import ChangeMessageState from './components/ChangeMessageState';
 
 import './App.css';
 
@@ -20,6 +23,16 @@ function App() {
     { id: 2, brand: "KIA", color: "Branco", newCar: false, km: 1240 },
     { id: 3, brand: "Renault", color: "Azul", newCar: false, km: 30245 },
   ]
+
+  const showMessage = () => {
+    console.log("Função executada no componente filho!")
+  }
+
+  const [ message, setMessage ] = useState("");
+
+  const handleMessage = (msg) => {
+    setMessage(msg);
+  }
 
   return (
     <div className="App">
@@ -47,7 +60,7 @@ function App() {
       <CarDetails brand="Fiat" km={4500} color="Branco" newCar={false}/>
 
       {cars.map((car) => (
-        <CarDetails brand={car.brand} color={car.color} km={car.km} newCar={car.newCar} />
+        <CarDetails key={car.id} brand={car.brand} color={car.color} km={car.km} newCar={car.newCar} />
       ))}
 
       <Fragments />
@@ -58,6 +71,11 @@ function App() {
       <Container myValue="testing2">
         <h5>Testando o container</h5>
       </Container>
+
+      <ExecuteFunction myFunction={showMessage} />
+
+      <Message msg={message}/>
+      <ChangeMessageState handleMessage={handleMessage}/>
     </div>
   );
 }
