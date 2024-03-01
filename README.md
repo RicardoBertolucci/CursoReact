@@ -33,6 +33,8 @@ Ao longo do curso, serão desenvolvidos diversos projetos para aplicar os concei
 
 1. **Projeto 1:** Descrição em breve do projeto.
 
+- Secret Word: Adivinhação da palavra através de uma dica e com somatório de uma pontuação
+
 ## 📝 Exercícios
 
 Além dos projetos, também serão propostos exercícios para praticar os conhecimentos adquiridos. Os exercícios podem abranger desde conceitos básicos até desafios mais avançados. Eles estarão localizados dentro das pastas de cada seção, com uma sinalização indicando que aquela pasta contém um exercício.
