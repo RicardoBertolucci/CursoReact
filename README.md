@@ -33,7 +33,7 @@ Ao longo do curso, serão desenvolvidos diversos projetos para aplicar os concei
 
 1. **Projeto 1:** Descrição em breve do projeto.
 
-- Secret Word: Adivinhação da palavra através de uma dica e com somatório de uma pontuação
+- Secret Word: Adivinhação da palavra através de uma dica e com somatório de uma pontuação a cada acerto obtido.
 
 ## 📝 Exercícios
 
