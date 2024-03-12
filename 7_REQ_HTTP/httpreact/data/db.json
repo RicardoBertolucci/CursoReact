@@ -16,14 +16,34 @@
       "price": 29.9
     },
     {
-      "id": "a94a",
+      "id": "4",
       "name": "teste",
       "price": "12"
     },
     {
-      "id": "7148",
+      "id": "5",
       "name": "capa de chuva",
       "price": "50.50"
+    },
+    {
+      "id": "6",
+      "name": "Teclado",
+      "price": "110"
+    },
+    {
+      "id": "7",
+      "name": "Cadeira",
+      "price": "200"
+    },
+    {
+      "id": "8",
+      "name": "Mouse",
+      "price": "60"
+    },
+    {
+      "id": "10",
+      "name": "cabo HDMI",
+      "price": "10"
     }
   ]
 }
