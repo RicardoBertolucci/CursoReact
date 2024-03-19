@@ -31,9 +31,13 @@ Bem-vindo ao meu repositório do curso de React! Aqui você encontrará informa�
 
 Ao longo do curso, serão desenvolvidos diversos projetos para aplicar os conceitos aprendidos. Para facilitar o acesso, as pastas estarão nomeadas de forma a permitir a identificação do projeto. Aqui estão alguns dos principais projetos realizados:
 
-1. **Projeto 1:** Descrição em breve do projeto.
+1. **Projeto 1:** 
 
 - Secret Word: Adivinhação da palavra através de uma dica e com somatório de uma pontuação a cada acerto obtido.
+
+2. **Projeto 2:**
+
+- Mini blog: descrição em breve
 
 ## 📝 Exercícios
 
